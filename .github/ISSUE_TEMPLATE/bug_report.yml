@@ -1,0 +1,21 @@
+name: Bug Report
+description: Report a bug or texture issue.
+title: "[BUG]"
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Add any context or screenshots about the bug below.
+    validations:
+      required: true
+  
+  - type: input
+    id: version
+    attributes:
+      label: Game Version
+      description: Which game version are you using?
+      placeholder: "Example: 1.12"
+    validations:
+      required: true
